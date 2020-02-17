@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/_STEP_PHP.iml" filepath="$PROJECT_DIR$/.idea/_STEP_PHP.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/PHP.iml" filepath="$PROJECT_DIR$/.idea/PHP.iml" />
+>>>>>>> 47b9642f2466447bb3e51262e36e807340f3e1ea
     </modules>
   </component>
 </project>
