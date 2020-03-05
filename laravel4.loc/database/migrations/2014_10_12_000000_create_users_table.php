@@ -22,11 +22,11 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
 
-        \App\User::create([
-            'username' => 'admin',
-            'password' => 'admin',
-            'superadmin' => 1
-        ]);
+        $user = new \App\User();
+        $user->username = 'admin';
+        $user->password = \Illuminate\Support\Facades\Hash::make('admin');
+        $user->superadmin = 1;
+        $user->save();
     }
 
     /**
